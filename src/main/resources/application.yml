@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Mini-Dooray-8-eureka
+
+  security:
+    user:
+      name: admin
+      password: 1234
+
+
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
